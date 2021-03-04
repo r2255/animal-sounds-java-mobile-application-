@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/aslanbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/aslan"
+                    android:contentDescription="@string/aslan"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/kedibuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/kedi"
+                    android:contentDescription="@string/kedi"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/kopekbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/kopek"
+                    android:contentDescription="@string/kopek"
+                    tools:ignore="ContentDescription"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/civcivbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/civciv"
+                    android:contentDescription="@string/civciv"
+                    tools:ignore="ContentDescription"/>
+
+                <ImageButton
+                    android:id="@+id/ayibuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/ayi"
+                    android:contentDescription="@string/ayi"
+                    tools:ignore="ContentDescription"/>
+
+                <ImageButton
+                    android:id="@+id/atbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/at"
+                    android:contentDescription="@string/at"
+                    tools:ignore="ContentDescription"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/inekbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/inek"
+                    android:contentDescription="@string/inek"
+                    tools:ignore="ContentDescription"/>
+
+                <ImageButton
+                    android:id="@+id/horozbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/horoz"
+                    android:contentDescription="@string/horoz"
+                    tools:ignore="ContentDescription"/>
+
+                <ImageButton
+                    android:id="@+id/farebuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/fare"
+                    android:contentDescription="@string/fare"
+                    tools:ignore="ContentDescription"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/maymunbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/maymun"
+                    android:contentDescription="@string/maymun"
+                    tools:ignore="ContentDescription"/>
+
+                <ImageButton
+                    android:id="@+id/sivrisinekbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/sivrisinek"
+                    android:contentDescription="@string/sivrisinek"
+                    tools:ignore="ContentDescription"/>
+
+                <ImageButton
+                    android:id="@+id/kurbagabuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/kurbaga"
+                    android:contentDescription="@string/kurbaga"
+                    tools:ignore="ContentDescription"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/kecibuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/keci"
+                    android:contentDescription="@string/keci"
+                    tools:ignore="ContentDescription"/>
+
+                <ImageButton
+                    android:id="@+id/yilanbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/yilan"
+                    android:contentDescription="@string/yilan"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/yunusbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/yunus"
+                    android:contentDescription="@string/yunus"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/papaganbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/papagan"
+                    android:contentDescription="@string/papagan"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/kaplanbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/kaplan"
+                    android:contentDescription="@string/kaplan"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/kurtbuton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/kurt"
+                    android:contentDescription="@string/kurt"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/domuzbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/domuz"
+                    android:contentDescription="@string/domuz"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/trexbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/trex"
+                    android:contentDescription="@string/trex"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/tavukbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/tavuk"
+                    android:contentDescription="@string/tavuk"
+                    tools:ignore="ContentDescription" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/sinekbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/sinek"
+                    android:contentDescription="@string/sinek"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/kargabuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/karga"
+                    android:contentDescription="@string/karga"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/aributon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/ari"
+                    android:contentDescription="@string/ari"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/gergedanbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/gergedan"
+                    android:contentDescription="@string/gergedan"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/filbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/fil"
+                    android:contentDescription="@string/fil"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/lemurbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/lemur"
+                    android:contentDescription="@string/lemur"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/muhabbetkusubuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/muhabbetkusu"
+                    android:contentDescription="@string/muhabbetkusu"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/gorilbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/goril"
+                    android:contentDescription="@string/goril"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/sincapbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="@string/sincap"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/sincap"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/koyunbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/koyun"
+                    android:contentDescription="@string/koyun"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/baykusbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/baykus"
+                    android:contentDescription="@string/baykus"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/kartalbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/kartal"
+                    android:contentDescription="@string/kartal"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/lamabuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/lama"
+                    android:contentDescription="@string/lama"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/ordekbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/ordek"
+                    android:contentDescription="@string/ordek"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/penguenbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/penguen"
+                    android:contentDescription="@string/penguen"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/yarasabuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/yarasa"
+                    android:contentDescription="@string/yarasa"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/balinabuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/balina"
+                    android:contentDescription="@string/balina"
+                    tools:ignore="ContentDescription" />
+
+                <ImageButton
+                    android:id="@+id/sahinbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:onClick="playSound"
+                    app:srcCompat="@drawable/sahin"
+                    android:contentDescription="@string/sahin"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
